@@ -690,4 +690,4 @@ list = [1, 2, 3]
 
 ### Case
 
-Even though both Elixir and Gleam are functional programming language. There is a huge difference between them and with others non-functional language, which is not providing `if/else`, the fundamental part for most programming language. In other hand, we use `match` instead. Gleam features a strong pattern matching feature like Elixir.
+Even though both Elixir and Gleam are functional programming languages, there are significant differences between them and other non-functional languages, which typically do not provide if/else, a fundamental part of most programming languages. Instead, we use match expressions. Gleam features strong pattern matching capabilities like Elixir.
