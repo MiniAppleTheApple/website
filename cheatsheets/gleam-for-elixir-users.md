@@ -27,7 +27,7 @@ subtitle: Hello Elixir Alchemists!
   - [Atoms](#atoms)
   - [Dicts](#dicts)
 - [Patterns](#patterns)
-- [Flow control](#flow-control) TODO
+- [Flow control](#flow-control)
   - [Case](#case) TODO
   - [Try](#try) TODO
 - [Type aliases](#type-aliases) TODO
@@ -686,5 +686,8 @@ list = [1, 2, 3]
 {1 = a, 2 = b} = {1, 2}
 ```
 
+## Flow Control
 
+### Case
 
+Even though both Elixir and Gleam are functional programming language. There is a huge difference between them and with others non-functional language, which is not providing `if/else`, the fundamental part for most programming language. In other hand, we use `match` instead. Gleam features a strong pattern matching feature like Elixir.
